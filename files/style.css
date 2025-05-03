@@ -1,0 +1,63 @@
+body {
+    background: white;
+}
+section {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.border {
+    background: #4D2D14;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+}
+.hl_font {
+    font-size:28;
+}
+td {
+    padding: 1em;
+}
+a {
+    color: #4D2D14;
+    font-style: italic;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+a.link_text {
+    text-decoration: underline;
+}
+table {
+    color: #4D2D14;
+    font-style: italic;
+    text-align: center;
+    font-size:20;
+}
+td {
+    vertical-align:center;
+    max-width:600px;
+}
